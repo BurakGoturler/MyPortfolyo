@@ -1,6 +1,6 @@
 # Dinamik Portfolyo Projesi - Admin Panelli  
 
-Bu proje, **ASP.NET Core 8** kullanılarak geliştirilmiş dinamik bir portföyo uygulamasıdır. Proje, hem kullanıcı dostu bir arayüz hem de güçlü bir admin paneli sunar. Aşağıda projenin genel özellikleri, kullanılan teknolojiler ve detayları bulabilirsiniz.  
+Bu proje, Murat Yücedağ'ın Udemy bulunan "Asp.Net Core ile Admin Panelli Dinamik Bir Portfolyo Geliştirelim Part 1-2" kursunda yapmış olduğum **ASP.NET Core 8** kullanılarak geliştirilmiş dinamik bir portföyo uygulamasıdır. Proje, hem kullanıcı dostu bir arayüz hem de güçlü bir admin paneli sunar. Aşağıda projenin genel özellikleri, kullanılan teknolojiler ve detayları bulabilirsiniz.
 
 ---
 
