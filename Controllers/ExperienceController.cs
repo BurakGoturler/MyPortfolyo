@@ -11,7 +11,6 @@ namespace MyPortfolyo.Controllers
         public IActionResult ExperienceList()
         {
             var values = context.Experiences.ToList();
-
             return View(values);
         }
 

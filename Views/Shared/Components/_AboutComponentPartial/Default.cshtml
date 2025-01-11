@@ -24,10 +24,14 @@
     <div class="row about-content about-content--buttons">
 
         <div class="col-six tab-full left">
-            <a href="#0" class="btn btn--primary full-width">CV'mi İndir</a>
+            <a asp-controller="Cv" asp-action="ViewCV" class="btn btn-primary full-width">
+                CV'mi Görüntüle
+            </a>
+
+            @* <a href="#0" class="btn btn--primary full-width">CV'mi İndir</a> *@
         </div>
         <div class="col-six tab-full right">
-            <a href="#0" class="btn full-width">Bana Yazın</a>
+            <a href="#contact" class="btn full-width">Bana Yazın</a>
         </div>
 
     </div> <!-- end about-content buttons -->

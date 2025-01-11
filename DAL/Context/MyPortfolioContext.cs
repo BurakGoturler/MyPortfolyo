@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyPortfolyo.DAL.Entities;
+using System.Collections.Generic;
+
 
 namespace MyPortfolyo.DAL.Context
 {
@@ -19,5 +21,6 @@ namespace MyPortfolyo.DAL.Context
         public DbSet<Skill> Skills { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<ToDoList> ToDoLists { get; set; }
     }
 }

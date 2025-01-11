@@ -1,18 +1,14 @@
-﻿<div id="referans" class="s-testimonials">
+﻿@model List<MyPortfolyo.DAL.Entities.Testimonial>
 
+<div id="referans" class="s-testimonials">
     <div class="overlay"></div>
-    @model List<MyPortfolyo.DAL.Entities.Testimonial>
-
     <div class="row testimonials-header">
         <div class="col-full">
             <h1 class="h02">İnsanlar Benim İçin Ne Dediler?</h1>
         </div>
     </div>
-
     <div class="row testimonials">
-
         <div class="col-full testimonials__slider">
-
             @foreach (var item in Model)
             {
                 <div class="testimonials__slide">
@@ -26,9 +22,6 @@
                     </div>
                 </div>
             }
-
-        </div> <!-- end testimonials__slider -->
-
-    </div> <!-- end testimonials -->
-
+        </div>
+    </div>
 </div>

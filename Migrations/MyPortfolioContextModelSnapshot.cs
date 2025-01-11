@@ -206,7 +206,7 @@ namespace MyPortfolyo.Migrations
                     b.ToTable("Portfolios");
                 });
 
-            modelBuilder.Entity("MyPortfolyo.DAL.Entities.Skill", b =>
+            modelBuilder.Entity("MyPortfolyo.DAL.Entities.Skills", b =>
                 {
                     b.Property<int>("SkillId")
                         .ValueGeneratedOnAdd()
@@ -224,7 +224,7 @@ namespace MyPortfolyo.Migrations
 
                     b.HasKey("SkillId");
 
-                    b.ToTable("Skill");
+                    b.ToTable("Skills");
                 });
 
             modelBuilder.Entity("MyPortfolyo.DAL.Entities.SocialMedia", b =>
@@ -279,6 +279,33 @@ namespace MyPortfolyo.Migrations
                     b.HasKey("TestimonialId");
 
                     b.ToTable("Testimonials");
+                });
+
+            modelBuilder.Entity("MyPortfolyo.DAL.Entities.ToDoList", b =>
+                {
+                    b.Property<int>("ToDoListId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ToDoListId"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ToDoListId");
+
+                    b.ToTable("ToDoLists");
                 });
 #pragma warning restore 612, 618
         }
