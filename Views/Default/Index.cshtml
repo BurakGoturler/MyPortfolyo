@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+
+<!-- Burası Head Component -->
+@await Component.InvokeAsync("_HeadComponentPartial")
+
+<body id="top">
+    <!-- Burası Navbar Component -->
+    @await Component.InvokeAsync("_NavbarComponentPartial")
+
+    <!-- Burası Feature Component -->
+    @await Component.InvokeAsync("_FeatureComponentPartial")
+
+    <!-- Burası About Component -->
+    @await Component.InvokeAsync("_AboutComponentPartial")
+
+    <!-- Burası Portfolyo Component -->
+    @await Component.InvokeAsync("_PortfolioComponentPartial")
+
+    <!-- Burası Testimonial Component -->
+    @await Component.InvokeAsync("_TestimonialComponentPartial")
+
+    <!-- Burası Statistic Component -->
+    @await Component.InvokeAsync("_StatisticComponentPartial")
+
+    <!-- Burası Contact Component -->
+    @await Component.InvokeAsync("_ContactComponentPartial")
+
+    <!-- Burası Footer Component -->
+    @await Component.InvokeAsync("_FooterComponentPartial")
+
+</body>
+
+</html>

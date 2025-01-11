@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MyPortfolyo.Models;
+using System.Diagnostics;
 
 namespace MyPortfolyo.Controllers
 {
