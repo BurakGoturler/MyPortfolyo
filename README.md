@@ -40,7 +40,7 @@ Portföyün kullanıcı tarafı, modern bir tasarımla geliştirilmiştir.
 
 ### Admin Paneli  
 [Admin panelinden birkaç ekran görüntüsü ekleyin.]
-![Projeye Genel Bakış](/wwwroot/Projeye-Ait-Ekran-Goruntuleri/1.png)
+![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/1.png)
 
 ### Kullanıcı Arayüzü  
 [Kullanıcı arayüzünden birkaç ekran görüntüsü ekleyin.]  
