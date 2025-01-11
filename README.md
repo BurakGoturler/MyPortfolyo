@@ -39,10 +39,12 @@ Portföyün kullanıcı tarafı, modern bir tasarımla geliştirilmiştir.
 ## 📸 Ekran Görüntüleri  
 
 ### Admin Paneli  
-[Admin panelinden birkaç ekran görüntüsü ekleyin.]
-![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/1.png)
+![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/4.png)
+![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/5.png)
+![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/6.png)
 
 ### Kullanıcı Arayüzü  
-[Kullanıcı arayüzünden birkaç ekran görüntüsü ekleyin.]  
+![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/1.png)
+![Projeye Genel Bakış](Projeye-Ait-Ekran-Goruntuleri/2.png)
 
 ---
